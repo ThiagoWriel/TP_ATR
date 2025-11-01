@@ -116,8 +116,10 @@ int main() {
     printf("Processo Principal iniciado.\n");
 
     // Etapa 1: Disparar os processos de exibição
-    IniciarProcesso("Processo_exibicao_dados.exe");
-    IniciarProcesso("Processo_analise_granulometria.exe");
+    //IniciarProcesso("C:\\Users\\marcos\\source\\repos\\TP_ATR\\bin\\Processo_exibicao_dados.exe");
+    //IniciarProcesso("C:\\Users\\marcos\\source\\repos\\TP_ATR\\bin\\Processo_analise_granulometria.exe");
+	IniciarProcesso("Processo_exibicao_dados.exe");
+	IniciarProcesso("Processo_analise_granulometria.exe");
 
     // Etapa 2: Inicializar a lista circular e seus objetos de sincronização
     InicializarLista(lista1, TAMANHO_LISTA_1);
